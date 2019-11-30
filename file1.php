@@ -3,5 +3,6 @@
     while(!feof($myfile)){
         echo fgets($myfile);
     }
+    echo"Success";
 
 ?>
