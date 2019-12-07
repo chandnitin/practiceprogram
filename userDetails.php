@@ -29,7 +29,7 @@ while($row = $result->fetch_assoc()) {
     <td><?php echo  $row["name"] ?></td>
 
     <td><?php echo  $row["detail"] ?></td>
-    <td>  <a href="updatedtail.php?&id=<?php echo $row["id"] ?>"> Edit </a> | &nbsp; <a href="delete.php?&id=<?php echo $row["id"] ?>" onclick="return confirm('are you sure u wanna delete')"  > Delete </a>  </td>
+    <td>  <a href="updatedtail.php?&id=<?php echo $row["id"] ?>">  Edit </a> | &nbsp; <a href="delete.php?&id=<?php echo $row["id"] ?>" onclick="return confirm('are you sure u wanna delete')"  > Delete </a>  </td>
    </tr> 
 <?php
         
